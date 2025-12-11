@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Montserrat:wght@100..900&display=swap');
+
+.create{
+    background: #14204a;
+    position: relative;
+    width: 700px;
+    height: 100px;
+    margin-left: -60px;
+    margin-top: -50px;
+    border-radius: 50px 50px 0 0;
+}
+.form-box {
+    width: 90%;
+    max-width: 700px;
+    height: 580px;
+    position: relative;
+    margin-top: 23%;
+    margin-left: 49%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 50px 60px;
+    text-align: center;
+    border-radius: 50px 50px 20px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.form-title {
+    position: absolute;
+    top: 24px;
+    left: 21.5%;
+    font-size: 2.7em;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+.inputField {
+    width: 530px;
+    height: 50px;
+    padding: 15px;
+    margin: 35px 0;
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid #ccc;
+    border-radius: 20px!important;
+    font-size: 1em;
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 13px;
+    margin: auto;
+}
+.checkbox-group {
+    margin-top: -12px;
+    padding: 5px;
+    margin-right: 93%;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnPrimary {
+    background-color: #ff6000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    top: 86.5%;
+    width: 250px;
+    text-align: center;
+}
+.link{
+    color: #0073e6;
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding: 7px;
+    position: absolute;
+    bottom: 5.3%;
+    right: 16.5%;
+}
+.link:hover {
+    text-decoration: underline;
+}
+

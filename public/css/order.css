@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+main {
+    text-align: center;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+table {
+    border-collapse: collapse;
+    display: inline-block;
+    text-align: left;
+    border-top: 3px solid #efefef;
+}
+table thead {
+    background: #e5e7eb;
+    color: #07074d;
+}
+table tr:nth-child(even) {
+    background: #dfdfdf;
+}
+table th, table td {
+    padding: 14px 45px;
+    border: 4px solid #efefef;
+    color: #07074d;
+    border-radius: 13px;
+}
+.addBtn{
+    margin-right: 91%;
+    margin-bottom: 18px;
+    padding: 8px 38px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: #14204a;
+    cursor: pointer;
+}
+.editBtn{
+    padding: 3px;
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+    width: 65px;
+    background: #14204a;
+    font-size: 15px;
+    color: #fff;
+}
+.deleteBtn{
+    padding: 3px;
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+    width: 65px;
+    background: #ff6000;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 10px;
+}
+.ackBtn{
+    padding: 3px;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 115px;
+    background: darkcyan;
+    font-size: 15px;
+    color: #fff;
+    margin-right: 5px;
+}
+.acceptBtn{
+    padding: 3px;
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+    width: 88px;
+    background: #14204a;
+    font-size: 15px;
+    color: #fff;
+    margin-right: 5px;
+}
+.rejectBtn{
+    padding: 3px;
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+    width: 80px;
+    background: #ff6000;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 10px;
+}
+@media screen and (max-width: 1000px) {
+    table td {
+        display: block;
+        text-align: right;
+    }
+    table td:before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+    table thead {
+        display: none;
+    }
+}
