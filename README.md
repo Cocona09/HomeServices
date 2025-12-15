@@ -20,6 +20,7 @@ This project was developed as part of a diploma project and focuses on backend l
 ![service](./screenshots/service.png)
 
 **Services Admin Dashboard**
+
 ![service_admin](./screenshots/service_admin.png)
 
 **Service User Dashboard**
@@ -100,3 +101,20 @@ Clean separation of concerns using MVC
 Scalable service-based structure
 
 Secure authentication and role-based access (Admin / User)
+
+HomeService/
+├── app/
+│   ├── Http/Controllers/
+│   ├── Models/
+│   └── Requests/
+├── database/
+│   ├── migrations/
+│   └── seeders/
+├── resources/
+│   ├── views/
+│   ├── css/
+│   └── js/
+├── routes/
+│   └── web.php
+├── public/
+└── README.md
