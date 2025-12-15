@@ -9,6 +9,20 @@ The system allows customers to browse services, schedule appointments, and creat
 
 This project was developed as part of a diploma project and focuses on backend logic, database design, and real-world service workflow implementation using Laravel.
 
+## 📸 Screenshots
+
+**Service Home Page**
+
+![Home](./screenshots/Home.png)
+
+**Service Appointment Booking**
+
+![Booking](./screenshots/appointment.png)
+
+**Service Admin Dashboard**
+
+![Admin](./screenshots/admin.png)
+
 🎯 Purpose & Goals
 
 Provide an easy-to-use platform for booking home services
@@ -18,6 +32,8 @@ Practice real-world full-stack development
 Implement clean backend architecture and database relations
 
 Simulate a real business workflow from user request to service fulfillment
+
+
 
 🚀 Features
 👤 User Features
