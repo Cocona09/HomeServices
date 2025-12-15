@@ -102,19 +102,14 @@ Scalable service-based structure
 
 Secure authentication and role-based access (Admin / User)
 
-HomeService/
-├── app/
-│   ├── Http/Controllers/
-│   ├── Models/
-│   └── Requests/
-├── database/
-│   ├── migrations/
-│   └── seeders/
-├── resources/
-│   ├── views/
-│   ├── css/
-│   └── js/
-├── routes/
-│   └── web.php
-├── public/
-└── README.md
+📈 What I Learned
+
+Designing relational databases
+
+Implementing real booking workflows
+
+Writing clean backend logic with Laravel
+
+Managing CRUD operations efficiently
+
+Understanding real-world web application structure
