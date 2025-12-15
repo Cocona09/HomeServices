@@ -13,15 +13,18 @@ This project was developed as part of a diploma project and focuses on backend l
 
 **Service Home Page**
 
-![Home](./screenshots/Home.png)
+![service_home](./screenshots/service_home.png)
 
-**Service Appointment Booking**
+**Services**
 
-![Booking](./screenshots/appointment.png)
+![service](./screenshots/service.png)
 
-**Service Admin Dashboard**
+**Services Admin Dashboard**
+![service_admin](./screenshots/service_admin.png)
 
-![Admin](./screenshots/admin.png)
+**Service User Dashboard**
+
+![user_profile](./screenshots/user_profile.png)
 
 🎯 Purpose & Goals
 
