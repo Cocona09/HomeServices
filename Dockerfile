@@ -23,6 +23,7 @@ COPY . .
 
 # Install PHP dependencies
 RUN composer install --no-dev --optimize-autoloader
+RUN php artisan config:clear
 
 # Laravel permissions
 RUN chmod -R 777 storage bootstrap/cache
