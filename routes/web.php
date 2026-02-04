@@ -8,6 +8,10 @@ use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\ApplicationController;
 
+Route::get('/health', function () {
+    return response('OK', 200);
+});
+
 Route::get('/home', [AdminController::class, 'home'])->middleware(['auth', 'verified'])->name('home');
 
 // Dashboard with middleware
