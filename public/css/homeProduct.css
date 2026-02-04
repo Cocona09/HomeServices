@@ -29,8 +29,8 @@ table th, table td {
     border-radius: 13px;
 }
 .addBtn{
-    margin-left: 89%;
-    margin-bottom: 13px;
+    position: relative;
+    margin-bottom: 15px;
     padding: 8px 38px;
     font-size: 16px;
     color: #fff;
@@ -60,6 +60,16 @@ table th, table td {
     font-size: 15px;
     color: #fff;
     margin-top: 10px;
+}
+.question-btn{
+    padding: 3px;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 70px;
+    background: #14204a;
+    font-size: 15px;
+    color: #fff;
 }
 @media screen and (max-width: 1000px) {
     table td {

@@ -41,8 +41,12 @@ class OrderController extends Controller
         $payments = Payment::all();
         return view('payment.paymentDisplay', compact('payments'));
     }
-    public function userOrder(){
-        $orders = Order::with('Worker')->where('user_id', Auth::id())->get();
+    public function userOrder() {
+        $orders = Order::with('Worker')
+            ->where('user_id', Auth::id())
+            ->orderBy('created_at', 'desc')
+            ->get();
+
         return view('profile.userOrder', compact('orders'));
     }
 }

@@ -74,7 +74,7 @@
                     </td>
                     <td>
                         <a href="{{ route('answerCrud.answer', $question->id) }}">
-                            <button class="editBtn">Нэмэх</button>
+                            <button class="question-btn">Хариулт нэмэх</button>
                         </a>
                     </td>
                 </tr>

@@ -39,8 +39,6 @@
             <thead>
             <tr>
                 <th>ID</th>
-                <th>Хэрэглэгчийн ID</th>
-                <th>Ажилчний ID</th>
                 <th>Үйлчилгээний нэр</th>
                 <th>Хариултууд</th>
                 <th>Хаяг</th>
@@ -57,8 +55,6 @@
             @foreach($orders as $order)
                 <tr style="background: #dfdfdf">
                     <td>{{$order->id }}</td>
-                    <td>{{$order->user_id}}</td>
-                    <td>{{$order->employee_id}}</td>
                     <td>{{$order->service_name }}</td>
                     <td>
                         @foreach(json_decode($order->answers, true) as $key => $answer)

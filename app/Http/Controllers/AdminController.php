@@ -250,12 +250,18 @@ class AdminController extends Controller
         $user->delete();
         return redirect()->route('userCrud.userDisplay')->with('userDelete', 'Хэрэглэгчийн мэдээллийг амжилттай устгагдлаа.');
     }
-    public function orderDisplay()
+    public function orderDisplay(Request $request)
     {
-        $orders = Order::all();
+        $query = Order::query();
+        if ($request->has('created_at') && $request->filled('created_at')) {
+            $query->whereDate('created_at', $request->created_at);
+        }
+
+        $orders = $query->orderBy('created_at', 'desc')
+            ->paginate(20);
+
         return view('orderCrud.orderDisplay', compact('orders'));
     }
-
     public function orderEdit($id) {
         $order= Order::findOrFail($id);
         return view('orderCrud.orderEdit', compact('order'));
@@ -265,7 +271,7 @@ class AdminController extends Controller
 
         $validatedData = $request->validate([
             'service_name' => 'required|string|max:255',
-            'answers' => 'required|string',  // JSON encoded string
+            'answers' => 'required|string',
             'address' => 'required|string|max:255',
             'feedback' => 'nullable|string',
             'user_name' => 'required|string|max:255',

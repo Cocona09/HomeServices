@@ -6,7 +6,7 @@
     <meta name="description" content="ServiceNest - Your go-to platform for home services">
     <meta name="keywords" content="home services, service providers, tasks">
     <title>ServiceNest</title>
-    <link rel="stylesheet" href="{{ asset('css/Index.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('css/main.css') }}"/>
     <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}" type="text/css"/>
     <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
 </head>

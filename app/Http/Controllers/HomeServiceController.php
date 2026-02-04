@@ -25,8 +25,4 @@ class HomeServiceController extends Controller
     public function apply(){
         return view('servicePro.apply');
     }
-
-    public function feedback(){
-        return view('feedback.feedBackForm');
-    }
 }

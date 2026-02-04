@@ -79,7 +79,7 @@
                          </td>
                          <td>
                              <a href="{{ route('questionCrud.question', $service->id) }}">
-                                 <button class="editBtn">Нэмэх</button>
+                                 <button class="question-btn">Асуулт нэмэх</button>
                              </a>
                          </td>
                      </tr>
